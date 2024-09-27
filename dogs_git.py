@@ -19,3 +19,12 @@ class Dog:
 
     def bark(self):
         return f"Собака {self.get_name()} возрастом {self.get_age()} лет, цвета {self.get_color()}, громко гавкает"
+
+
+
+
+class PurebredDog(Dog):
+    def __init__(self, name, age, color, breed):
+        super.__init__(name,age,color)
+        self.__breed = breed
+
