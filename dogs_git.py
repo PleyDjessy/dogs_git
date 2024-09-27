@@ -13,3 +13,7 @@ class Dog:
     def get_color(self):
         return self.__color
 
+    def set_age(self, new_age):
+        self.__age = new_age
+        return "Успешно"
+
