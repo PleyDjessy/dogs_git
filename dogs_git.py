@@ -17,3 +17,5 @@ class Dog:
         self.__age = new_age
         return "Успешно"
 
+    def bark(self):
+        return f"Собака {self.get_name()} возрастом {self.get_age()} лет, цвета {self.get_color()}, громко гавкает"
