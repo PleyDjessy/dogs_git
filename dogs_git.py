@@ -31,3 +31,9 @@ class PurebredDog(Dog):
     def get_breed(self):
         return self.__breed
 
+    def bark(self):
+        return f"Собака {self.get_name()} возрастом {self.get_age()} лет, цвета {self.get_color()} и породы {self.get_breed()}, громко гавкает"
+
+    def go_to_dog_show(self):
+        return f"Собака {self.get_name()} породы {self.get_breed()} участвует на показе"
+
