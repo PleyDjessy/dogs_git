@@ -25,7 +25,7 @@ class Dog:
 
 class PurebredDog(Dog):
     def __init__(self, name, age, color, breed):
-        super.__init__(name,age,color)
+        super.__init__(name, age, color)
         self.__breed = breed
 
     def get_breed(self):
